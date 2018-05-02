@@ -30,6 +30,28 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 828.5, 101.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 646.0, 102.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-74",
 					"maxclass" : "bpatcher",
 					"name" : "syphonclient.maxpat",
@@ -537,13 +559,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-37",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 204.0, 178.0, 50.0, 31.0 ],
-									"text" : "mamma"
+									"text" : "manfly"
 								}
 
 							}
@@ -720,7 +741,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-2",
-									"items" : [ "new", ",", "mamma" ],
+									"items" : [ "new", ",", "mamma", ",", "mamma2", ",", "manfly" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -886,7 +907,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-9",
-					"items" : [ "new", ",", "mamma" ],
+					"items" : [ "new", ",", "mamma", ",", "mamma2", ",", "manfly" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -959,7 +980,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 138.5, 154.0, 267.0, 18.0 ],
-									"text" : "mamma"
+									"text" : "mamma mamma2 manfly"
 								}
 
 							}
@@ -1410,7 +1431,7 @@
 					"patching_rect" : [ 25.5, 859.0, 358.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 1088.0, 344.0, 20.0 ],
-					"text" : "/loopier/clip/clip/moveto mamma 0.44 0.42",
+					"text" : "/loopier/clip/clip/moveto manfly 0.35 0.49",
 					"textcolor" : [ 0.876481, 0.876454, 0.876469, 1.0 ]
 				}
 
@@ -1656,12 +1677,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-15",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 224.0, 190.0, 109.0, 18.0 ],
-									"text" : "/clip/alpha mamma"
+									"text" : "/clip/alpha mamma2"
 								}
 
 							}
@@ -1689,7 +1711,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 269.0, 131.0, 105.0, 18.0 ],
-									"text" : "mamma"
+									"text" : "manfly"
 								}
 
 							}
@@ -1786,13 +1808,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-110",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 318.0, 339.0, 109.0, 31.0 ],
-									"text" : "/clip/alpha mamma 1."
+									"text" : "/clip/alpha mamma2 0.611538"
 								}
 
 							}
@@ -2157,7 +2179,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 254.0, 116.0, 105.0, 18.0 ],
-									"text" : "mamma"
+									"text" : "manfly"
 								}
 
 							}
@@ -2570,7 +2592,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 254.0, 116.0, 105.0, 18.0 ],
-									"text" : "mamma"
+									"text" : "manfly"
 								}
 
 							}
@@ -2858,7 +2880,7 @@
 					"patching_rect" : [ 887.5, 833.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 135.0, 499.0, 100.0, 20.0 ],
-					"text" : "mamma"
+					"text" : "manflyround"
 				}
 
 			}
@@ -2937,7 +2959,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 254.0, 116.0, 105.0, 18.0 ],
-									"text" : "mamma"
+									"text" : "manfly"
 								}
 
 							}
@@ -3157,7 +3179,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 254.0, 157.0, 105.0, 18.0 ],
-									"text" : "mamma"
+									"text" : "manfly"
 								}
 
 							}
@@ -3479,7 +3501,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 239.0, 101.0, 105.0, 18.0 ],
-									"text" : "mamma"
+									"text" : "manfly"
 								}
 
 							}
@@ -3807,7 +3829,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 254.0, 116.0, 105.0, 18.0 ],
-									"text" : "mamma"
+									"text" : "manfly"
 								}
 
 							}
@@ -4055,7 +4077,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 254.0, 116.0, 105.0, 18.0 ],
-									"text" : "mamma"
+									"text" : "manfly"
 								}
 
 							}
@@ -4303,7 +4325,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 254.0, 116.0, 105.0, 18.0 ],
-									"text" : "mamma"
+									"text" : "manfly"
 								}
 
 							}
@@ -4667,7 +4689,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 269.0, 131.0, 105.0, 18.0 ],
-									"text" : "mamma"
+									"text" : "manfly"
 								}
 
 							}
@@ -5009,7 +5031,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 254.0, 116.0, 105.0, 18.0 ],
-									"text" : "mamma"
+									"text" : "manfly"
 								}
 
 							}
@@ -5283,7 +5305,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 254.0, 116.0, 105.0, 18.0 ],
-									"text" : "mamma"
+									"text" : "manfly"
 								}
 
 							}
@@ -5680,7 +5702,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 269.0, 131.0, 105.0, 18.0 ],
-									"text" : "mamma"
+									"text" : "manfly"
 								}
 
 							}
@@ -5777,12 +5799,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-110",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 318.0, 339.0, 143.0, 18.0 ],
-									"text" : "/clip/scale mamma 1. 1."
+									"text" : "/clip/scale mamma 0.423077 0.423077"
 								}
 
 							}
@@ -6120,7 +6143,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 254.0, 116.0, 105.0, 18.0 ],
-									"text" : "mamma"
+									"text" : "manfly"
 								}
 
 							}
@@ -6421,7 +6444,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 254.0, 157.0, 105.0, 18.0 ],
-									"text" : "mamma"
+									"text" : "manfly"
 								}
 
 							}
@@ -6688,7 +6711,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 224.0, 190.0, 109.0, 18.0 ],
-									"text" : "/clip/loop mama"
+									"text" : "/clip/loop mamma2"
 								}
 
 							}
@@ -6730,7 +6753,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 269.0, 131.0, 105.0, 18.0 ],
-									"text" : "mamma"
+									"text" : "manfly"
 								}
 
 							}
@@ -6833,7 +6856,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 318.0, 339.0, 143.0, 31.0 ],
-									"text" : "/clip/loop mama palindrome"
+									"text" : "/clip/loop mamma2 palindrome"
 								}
 
 							}
@@ -7050,11 +7073,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-93",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 507.0, 243.0, 50.0, 18.0 ]
+									"patching_rect" : [ 507.0, 243.0, 50.0, 18.0 ],
+									"text" : "manflyround"
 								}
 
 							}
@@ -7110,7 +7135,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 209.0, 175.0, 109.0, 18.0 ],
-									"text" : "/clip/new mamma"
+									"text" : "/clip/new manfly"
 								}
 
 							}
@@ -7166,7 +7191,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 254.0, 116.0, 105.0, 18.0 ],
-									"text" : "mamma"
+									"text" : "manfly"
 								}
 
 							}
@@ -7263,12 +7288,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-110",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 303.0, 369.0, 143.0, 18.0 ],
-									"text" : "/clip/new mamma"
+									"text" : "/clip/new manfly manflyround"
 								}
 
 							}
@@ -7537,7 +7563,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 239.0, 142.0, 105.0, 18.0 ],
-									"text" : "mamma"
+									"text" : "manfly"
 								}
 
 							}
@@ -7860,7 +7886,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 142.0, 200.0, 168.0, 18.0 ],
-									"text" : "set /clip/color mama"
+									"text" : "set /clip/color mamma2"
 								}
 
 							}
@@ -7883,13 +7909,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-9",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 273.0, 114.0, 50.0, 18.0 ],
-									"text" : "mamma"
+									"text" : "manfly"
 								}
 
 							}
@@ -7928,7 +7953,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 213.5, 286.0, 311.0, 18.0 ],
-									"text" : "/clip/color mama 0.09375 0.426514 1. 1."
+									"text" : "/clip/color mamma2 0.833333 0.3 0. 1."
 								}
 
 							}
@@ -7942,7 +7967,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 459.0, 164.0, 151.0, 18.0 ],
-									"text" : "0.09375 0.426514 1. 1."
+									"text" : "0.833333 0.3 0. 1."
 								}
 
 							}
@@ -8162,7 +8187,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 25.5, 887.0, 652.0, 25.0 ],
-					"text" : "/loopier/clip/clip/moveto mamma 0.4375 0.416667",
+					"text" : "/loopier/clip/clip/moveto manfly 0.353125 0.488889",
 					"textcolor" : [ 0.193107, 0.270417, 0.424166, 1.0 ]
 				}
 
@@ -8450,7 +8475,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 239.0, 101.0, 105.0, 18.0 ],
-									"text" : "mamma"
+									"text" : "manfly"
 								}
 
 							}
@@ -8792,7 +8817,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 377.0, 216.0, 303.0, 18.0 ],
-									"text" : "/clip/moveto mamma 0.4375 0.416667"
+									"text" : "/clip/moveto manfly 0.353125 0.488889"
 								}
 
 							}
@@ -8856,7 +8881,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 164.0, 325.0, 180.0, 18.0 ],
-									"text" : "mamma 0.4375 0.416667"
+									"text" : "manfly 0.353125 0.488889"
 								}
 
 							}
@@ -9160,7 +9185,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 858.0, 148.5, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 134.0, 97.5, 100.0, 20.0 ]
+					"presentation_rect" : [ 134.0, 97.5, 100.0, 20.0 ],
+					"text" : "manflyround"
 				}
 
 			}
@@ -9180,7 +9206,7 @@
 					"patching_rect" : [ 682.0, 147.5, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 134.0, 70.5, 100.0, 20.0 ],
-					"text" : "mamma"
+					"text" : "manfly"
 				}
 
 			}
@@ -9368,6 +9394,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-138", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-56", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}
@@ -9814,6 +9849,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-55", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -9854,6 +9898,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-37", 0 ]
 				}
 
 			}
@@ -10142,6 +10195,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-9", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}
