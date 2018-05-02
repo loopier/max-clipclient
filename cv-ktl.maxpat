@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 960.0, 45.0, 682.0, 553.0 ],
+		"rect" : [ 903.0, 45.0, 682.0, 553.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,7 +37,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 425.0, 229.0, 86.0, 20.0 ],
-					"presentation_rect" : [ 427.0, 249.0, 0.0, 0.0 ],
 					"text" : "r setupcvbang"
 				}
 
@@ -833,7 +832,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1088.0, 180.0, 640.0, 716.0 ],
+						"rect" : [ 664.0, 211.0, 640.0, 716.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -852,7 +851,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-5",
@@ -1572,7 +1570,6 @@
 				"box" : 				{
 					"id" : "obj-73",
 					"maxclass" : "bpatcher",
-					"name" : "cv",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 405.875, 377.0, 185.25, 123.0 ],
